@@ -124,7 +124,7 @@ mini-ecommerce/
 Amanda Lisboa ✨
 💻 Estudante de Análise e Desenvolvimento de Sistemas
 
-[🔗 GitHub](https://github.com/AmandaLisboa-Ramos) • [🔗 LinkedIn (opcional)](https://www.linkedin.com/in/amanda-lisboa-789a42330/)
+[🔗 GitHub](https://github.com/AmandaLisboa-Ramos) • [🔗 LinkedIn](https://www.linkedin.com/in/amanda-lisboa-789a42330/)
 
 ---
 
