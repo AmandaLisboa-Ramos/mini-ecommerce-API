@@ -1,4 +1,4 @@
-# 🛒 Mini E-commerce com Microserviços
+# Mini E-commerce com Microserviços
 
 Foi desenvolvido com arquitetura de microserviços utilizando **Node.js** e **Express.js**. A proposta visa praticar organização de serviços, consumo de APIs internas e conceitos básicos de autenticação. 💙
 
@@ -8,7 +8,7 @@ Foi desenvolvido com arquitetura de microserviços utilizando **Node.js** e **Ex
 
 O sistema é dividido em **três serviços independentes**, cada um rodando em sua própria porta:
 
-### 🔐 Auth Service – `localhost:3001`
+### Auth Service – `localhost:3001`
 
 Responsável por registrar e autenticar usuários.
 
@@ -22,7 +22,7 @@ Responsável por registrar e autenticar usuários.
 
 ---
 
-### 📦 Product Service – `localhost:3002`
+### Product Service – `localhost:3002`
 
 Gerencia o catálogo de produtos disponíveis.
 
@@ -31,11 +31,11 @@ Gerencia o catálogo de produtos disponíveis.
 * `GET /products`: Lista todos os produtos.
 * `GET /products/:id`: Retorna detalhes de um produto específico.
 
-> 🗂️ Os produtos são fixos no código-fonte, simulando um pequeno catálogo.
+>  Os produtos são fixos no código-fonte, simulando um pequeno catálogo.
 
 ---
 
-### 🧾 Order Service – `localhost:3003`
+### Order Service – `localhost:3003`
 
 Gerencia os pedidos feitos pelos usuários.
 
@@ -44,13 +44,13 @@ Gerencia os pedidos feitos pelos usuários.
 * `POST /order`: Cria um pedido com base no `username` e `productId`.
 * `GET /orders`: Lista todos os pedidos realizados.
 
-> 🔗 Este serviço **consome os outros dois** usando `Axios`, validando o usuário e buscando dados do produto antes de criar o pedido.
+> Este serviço **consome os outros dois** usando `Axios`, validando o usuário e buscando dados do produto antes de criar o pedido.
 
 ---
 
-## 🚀 Como executar o projeto
+## Como executar o projeto
 
-### ✅ Pré-requisitos
+### Pré-requisitos
 
 * [Node.js](https://nodejs.org/)
 * [npm](https://www.npmjs.com/)
@@ -121,7 +121,7 @@ mini-ecommerce/
 
 ## 👩‍💻 Desenvolvido por
 
-Amanda Lisboa ✨
+Amanda Lisboa
 💻 Estudante de Análise e Desenvolvimento de Sistemas
 
 [🔗 GitHub](https://github.com/AmandaLisboa-Ramos) • [🔗 LinkedIn](https://www.linkedin.com/in/amanda-lisboa-789a42330/)
